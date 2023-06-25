@@ -1,0 +1,16 @@
+# hdf5 file keys
+hdf_keys:
+    converted_subgroup: 'data_converted'
+    crop_data_subgroup: 'data_crop'
+    corner_subgroup: 'corners'
+    roi_data_subgroup: 'data_roi'
+
+available_tips:
+    - Berkovich
+    - Cube-corner
+
+available_methods:
+    - Self-imaging
+    - AFM
+    - Laser microscopy
+    - other
