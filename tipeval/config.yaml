@@ -1,0 +1,35 @@
+# global settings
+date_format: '%d/%m/%Y'
+date_time_format: '%d/%m/%Y - %H:%M:%S'
+
+# settings for input (tab is added as well)
+delimiters:
+    - 'tab'
+    - ','
+    - 'space'
+    - ';'
+    - '/'
+    - '-'
+comment_symbols:
+    - '#'
+    - '!'
+
+# settings for output
+output_settings:
+    default_output_file: output_test.hdf
+    default_output_folder: .\results   # todo prefix
+    dpi_images: 600
+    image_type: '.png'
+
+# settings for plotting
+plotting:
+    default_color_map: 'Greys'
+    colors_fit_faces:
+        - [0, 0, 1]
+        - [0, 1, 0]
+        - [1, 0, 0]
+    thickness_line_plots: 3
+    color_frame: [0, 0, 0]
+    axis_color: [0, 0, 1]
+    axis_thickness: 3
+    color_map_cross_sections: 'turbo'

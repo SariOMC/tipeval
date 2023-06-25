@@ -1,0 +1,27 @@
+# Byte-compiled code
+__pychache__/
+*.pyc
+*.pyogit
+
+# IDE
+.idea/
+.ipynb_checkpoints/
+
+# test output
+results/
+*.ara
+./docs/results
+
+# test scripts
+test_*.py
+
+# pip builds
+tipeval.egg-info/
+dist/
+build/
+
+#other files
+examples/*ler*
+*.pptx
+/evaluation.py
+*example.h5
